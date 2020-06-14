@@ -17,6 +17,7 @@ def save_file():
         print("Saving...")
         f = open(file_name, "w")
         f.write(myText_Box.get("1.0",'end-1c'))
+        print("Saved file!")
     else:
         root_3 = tk.Tk()
 
